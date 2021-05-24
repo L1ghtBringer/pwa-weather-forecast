@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/weather/static/css/main.e3d1ce92.chunk.css",
+    "main.js": "/weather/static/js/main.523993c9.chunk.js",
+    "runtime-main.js": "/weather/static/js/runtime-main.5b0f537a.js",
+    "static/js/2.0b7f8d0e.chunk.js": "/weather/static/js/2.0b7f8d0e.chunk.js",
+    "index.html": "/weather/index.html",
+    "service-worker.js": "/weather/service-worker.js",
+    "static/js/2.0b7f8d0e.chunk.js.LICENSE.txt": "/weather/static/js/2.0b7f8d0e.chunk.js.LICENSE.txt",
+    "static/media/font.css": "/weather/static/media/UbuntuRegular.5d534041.ttf",
+    "static/media/arrow.076d14e2.svg": "/weather/static/media/arrow.076d14e2.svg",
+    "static/media/backgroundDown.bb39dfbc.svg": "/weather/static/media/backgroundDown.bb39dfbc.svg",
+    "static/media/backgroundDownLow.3a80ecb6.svg": "/weather/static/media/backgroundDownLow.3a80ecb6.svg",
+    "static/media/backgroundUp.6931ba3c.svg": "/weather/static/media/backgroundUp.6931ba3c.svg",
+    "static/media/backgroundUpLow.2266bfa6.svg": "/weather/static/media/backgroundUpLow.2266bfa6.svg",
+    "static/media/button.2117456f.svg": "/weather/static/media/button.2117456f.svg",
+    "static/media/calendar.185fa292.svg": "/weather/static/media/calendar.185fa292.svg",
+    "static/media/cloud.c87dd115.svg": "/weather/static/media/cloud.c87dd115.svg",
+    "static/media/error.abd600da.svg": "/weather/static/media/error.abd600da.svg",
+    "static/media/offline.31e2cf13.svg": "/weather/static/media/offline.31e2cf13.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b0f537a.js",
+    "static/js/2.0b7f8d0e.chunk.js",
+    "static/css/main.e3d1ce92.chunk.css",
+    "static/js/main.523993c9.chunk.js"
+  ]
+}
