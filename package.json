@@ -49,6 +49,15 @@
     "eslint-plugin-import": "2",
     "eslint-plugin-node": "11",
     "eslint-plugin-promise": "4",
-    "react-app-rewired": "^2.1.8"
+    "mockdate": "^3.0.5",
+    "react-app-rewired": "^2.1.8",
+    "ts-jest": "^26.5.6"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testMatch": [
+      "**/__tests__/**/*.test.ts?(x)",
+      "**/?(*.)+(test).ts?(x)"
+    ]
   }
 }
