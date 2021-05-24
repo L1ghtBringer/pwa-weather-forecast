@@ -6,7 +6,7 @@
   "files": [
     "src/styled.ts"
   ],
-  "homepage": "https://l1ghtbringer.github.io/weather",
+  "homepage": "https://l1ghtbringer.github.io/pwa-weather-forecast",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
