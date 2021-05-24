@@ -2,7 +2,7 @@ import React from 'react'
 import { ICoordinates } from 'interfaces'
 import { observer } from 'mobx-react'
 import { cities } from 'data'
-import { Select, FillFields, Carousel, DatePicker, WeatherCard } from 'components'
+import { Select, FillFields, Carousel, DatePicker, WeatherCard, Snackbar } from 'components'
 import { weatherForecast } from 'store/weatherForecast'
 import { weatherArchive } from 'store/weatherArchive'
 import {
@@ -11,13 +11,17 @@ import {
   ForecastContainer,
   ForecastCard,
   FlexInput,
-  OneCard
+  OneCard,
+  OfflineLogo
 } from './Forecast.styles'
-import Snackbar from '../../components/Snackbar'
+import offline from 'assets/offline.svg'
+import { useIsOnline } from 'hooks/isOnline'
 
 const Forecast: React.FC = () => {
+  const online: boolean = useIsOnline()
   return (
     <ForecastSection>
+      <OfflineLogo src={offline} online={online}/>
       <Title>
         <h1>Weather</h1>
         <h1>forecast</h1>
