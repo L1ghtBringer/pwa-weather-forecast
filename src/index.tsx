@@ -7,6 +7,7 @@ import backgroundDownLow from 'assets/backgroundDownLow.svg'
 import backgroundUp from 'assets/backgroundUp.svg'
 import backgroundUpLow from 'assets/backgroundUpLow.svg'
 import { theme } from './styled'
+import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 import './font.css'
 
 const Global = createGlobalStyle`
@@ -38,3 +39,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 )
+
+serviceWorkerRegistration.register()
