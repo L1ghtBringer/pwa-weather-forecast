@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherCard component test Should match the snapshot 1`] = `"<div class=\\"sc-bdnxRM cEYTJY\\"><span>19 May 2021</span><img alt=\\"icons\\"/><span>+30°</span></div>"`;
